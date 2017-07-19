@@ -1,46 +1,14 @@
 <?php
 
-/* @var $this \yii\web\View */
-/* @var $content string */
-
-use yii\helpers\Hdasd asd tml;aSdASD as
+/* @var $this \yii\we
 use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
-use yii\widgetsfd s\Breadcrumbs;
-use app\assets\AppAsset;
-
-AppAsset::registfasder($this);
-?>
-<?php $this->beginPage() ?>
-<!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
-<head>ff
-    <meta charset="<?= YiasdUA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?= Html::csrfMetaTafgs() ?>
-    <title><?= Html::encf
-  <link rel="stylesheetasref="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-dfasdsadf
-  <script src="https:dsa/ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>asf asdfsadfsadfasdfdttps://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+otstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 
     <?php $this->head() ?>
 </head>
-<body>
-<?php $this->beginBody() ?>
-
-<div class="wrap">
-    <?php
-    NavBar::begin([
-        'brandLabel' => 'My Company',
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
-        ],
-    ]);
-
+<bod
     $menu = Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
